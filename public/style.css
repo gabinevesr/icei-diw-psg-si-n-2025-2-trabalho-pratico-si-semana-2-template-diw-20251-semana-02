@@ -1,0 +1,94 @@
+/* Estilo com tema marrom e rosa claro + foto quadrada */
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #fceeee; /* rosa claro */
+  color: #4e342e; /* marrom escuro */
+}
+
+.container {
+  max-width: 900px;
+  margin: 40px auto;
+  padding: 30px;
+  background-color: #fff7f7; /* fundo branco rosado */
+  box-shadow: 0 0 10px rgba(78, 52, 46, 0.2);
+  border-radius: 8px;
+}
+
+header {
+  border-bottom: 2px solid #a1887f;
+  padding-bottom: 15px;
+  margin-bottom: 25px;
+}
+
+.profile {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.profile-photo { 
+  width: 120px;
+  height: 120px;
+  object-fit: cover;
+  border: 3px solid #a1887f;
+  /* Foto quadrada — sem border-radius */
+}
+
+.info h1 {
+  margin: 0;
+  font-size: 28px;
+  color: #6d4c41;
+}
+
+.info p, a {
+  color: #5d4037;
+  margin: 4px 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+  color: #8d6e63;
+}
+
+section {
+  margin-bottom: 25px;
+}
+
+h2 {
+  color: #6d4c41;
+  border-bottom: 1px solid #d7ccc8;
+  padding-bottom: 5px;
+  margin-bottom: 10px;
+}
+
+ul {
+  padding-left: 20px;
+}
+
+ul li {
+  margin-bottom: 5px;
+}
+
+.job p {
+  margin: 4px 0;
+}
+
+/* Responsividade */
+@media (max-width: 600px) {
+  .profile {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .profile-photo {
+    margin-bottom: 15px;
+  }
+}
