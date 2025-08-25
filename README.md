@@ -6,4 +6,3 @@
 
 ## Print da tela da página criada (Curriculum Vitae)
 ![alt text](image.png)
-
