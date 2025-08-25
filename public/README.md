@@ -5,5 +5,4 @@
 - Matricula: 902697
 
 ## Print da tela da página criada (Curriculum Vitae)
-![alt text](image-5.png)
-
+![alt text](image.png)
